@@ -26,6 +26,6 @@ class Pair{
 int main(){
   
   //using pair class for the templete
-  Pair<int,string> p1;
+  Pair<int> p1;
   
 }
