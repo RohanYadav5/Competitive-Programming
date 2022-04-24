@@ -55,6 +55,7 @@ int main(){
     TreeNode<int>* root = takeInput();
     PreOrderTraversal(root);
     cout<<"PreOrder Traversal is same as level wise printint"<<endl;
-    cout<<"Number of leaf Node present = "<<printLeafNodes(root)<<endl;
+    PreOrderTraversal(root);
+
 
 }
