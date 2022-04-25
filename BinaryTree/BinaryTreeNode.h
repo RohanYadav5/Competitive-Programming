@@ -1,13 +1,13 @@
 
 template<typename T>
 class BinaryTreeNode{
-    Public:
+    public:
     T data;
     BinaryTreeNode *left;
     BinaryTreeNode *right;
 
     //constructor
-    BinaryTreeNode(){
+    BinaryTreeNode(T data){
         this->data=data;
         //to avoid garbage
         left=NULL;
@@ -24,4 +24,4 @@ class BinaryTreeNode{
     }
 
 
-}
+};
